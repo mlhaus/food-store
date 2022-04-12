@@ -32,7 +32,7 @@ code .
 1. In config.php, define 2 global variables CURRENTYEAR and SITENAME. Write code to set CURRENTYEAR to the current year, and set the SITENAME to your name. 
 1. In footer.php, write PHP code to replace "20XX" with the CURRENTYEAR variable, and "Your Name" with the SITENAME variable.
    - Add `<?php echo URLROOT; ?>/` to each `<img>` tag.
-1. From the index.html file, move lines 43-89 to the app/views/inc/navbar.php file. 
+1. From the index.html file, move lines 41-89 to the app/views/inc/navbar.php file. 
    - Add `<?php echo URLROOT; ?>/` to each `<a>` and `<img>` tag. Modify the link paths to "pages/about" and "pages/products".
 1. From the navbar.php file, move the SLIDER content to a new /inc file called slider.php
    - Add `<?php echo URLROOT; ?>/` to the `<img>` tag.
