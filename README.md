@@ -56,4 +56,12 @@ git push origin main
 
 ## Part 2
 
-Coming Soon
+Create a new database called "farm". Create two new tables with the following fields
+
+| employees |
+|-|
+| - emp_id (INT, AUTO_INCREMENT, PRIMARY_KEY)<br>- first_name VARCHAR(255)<br>- last_name VARCHAR(255)<br>- job_title VARCHAR(255) |
+
+| products |
+|-|
+| - prod_id (INT, AUTO_INCREMENT, PRIMARY_KEY)<br>- name VARCHAR(255)<br>- price DECIMAL(10, 2)<br>- category VARCHAR(255) |
