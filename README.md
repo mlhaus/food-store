@@ -37,7 +37,7 @@ code .
 1. From the navbar.php file, move the SLIDER content to a new /inc file called slider.php
    - Add `<?php echo URLROOT; ?>/` to the `<img>` tag.
 1. From the about.html file, moves lines 67-73 to a new /inc file called subheader.php
-1. From the index.html file, move the first 42 lines to the header.php file.
+1. From the index.html file, move the first 40 lines to the header.php file.
 1. In header.php, write PHP code to replace "Your Name" with the SITENAME variable.
    - Add `<?php echo URLROOT; ?>/` to each `<link>` tag.
 1. Open the Pages.php controller, create a method for index, about, products, and product. Create a data array key called "title" and set it to either "home", "about", or "products".
@@ -65,3 +65,7 @@ Create a new database called "farm". Create two new tables with the following fi
 | products |
 |-|
 | - prod_id (INT, AUTO_INCREMENT, PRIMARY_KEY)<br>- name VARCHAR(255)<br>- price DECIMAL(10, 2)<br>- category VARCHAR(255) |
+
+## Part 3
+
+Coming soon
