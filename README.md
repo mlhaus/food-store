@@ -45,7 +45,7 @@ code .
 1. Also in the navbar.php file, write some PHP code to determine whether to display the slider or subheader.
 1. Set up an index.php, about.php, products.php, and product.php file using the /inc files and the remaining content.
    - Add `<?php echo URLROOT; ?>/` to each `<img>` and `<a>` tag.
-1. Test your project to verify that http://localhost/food-store correctly displays the home page. Click the links to verify that they correctly navigate and display /pages/about, /pages/products, /pages/product, and /pages/missing.
+1. Test your project to verify that http://localhost/food-store correctly displays the home page. Click the links to verify that they correctly navigate and display "/pages/about", "/pages/products", and "/pages/product/0".
 1. Push your work to GitHub:
 ```
 git add .
@@ -56,7 +56,7 @@ git push origin main
 
 ## Part 2
 
-Create a new database called "farm". Create two new tables with the following fields
+Create a new database called "food-store". Create two new tables with the following fields. Populate the employees table with 3 records. Populate the products table with at least 8 records.
 
 | employees |
 |-|
@@ -64,8 +64,34 @@ Create a new database called "farm". Create two new tables with the following fi
 
 | products |
 |-|
-| - prod_id (INT, AUTO_INCREMENT, PRIMARY_KEY)<br>- name VARCHAR(255)<br>- price DECIMAL(10, 2)<br>- category VARCHAR(255) |
+| - prod_id (INT, AUTO_INCREMENT, PRIMARY_KEY)<br>- name VARCHAR(255)<br>- price DECIMAL(10, 2)<br>- category VARCHAR(255)<br>- featured BOOLEAN |
 
 ## Part 3
 
-Coming soon
+Update the about.php view to include the main content from about.html.
+
+Add the necessary PHP in the model (Page.php), view (about.php) and controller (Pages.php) to query the database and display the 3 employees.
+
+## Part 4
+
+Update the products.php view to include the main content from products.html.
+
+Add the necessary PHP in the model (Page.php), view (products.php) and controller (Pages.php) to query the database and display the 8+ products (image, name, price, and featured icon). The image can be generated from the product name. For example, "Organic Carrots" will become "organic-carrots.jpg".
+
+## Part 5
+
+Update the product.php view to include the main content from product.html.
+
+Add the necessary PHP in the model (Page.php), view (product.php) and controller (Pages.php) to query the database and display a single product (image, name, price, and category). The image can be generated from the product name. For example, "Organic Carrots" will become "organic-carrots.jpg".
+
+## Part 6
+
+Transfer your files to Siteground. Ask me for a new website when you're ready.
+
+# Extra Credit
+
+- Create a second products method in the Pages.php controller that includes a $category parameter. Query the database for only products that match that category. Add links to those categories on the home page "Food Categories" section.
+
+- Use the category data field to generate the list of related products on the product.php view.
+
+- Use the featured data field to generate the list of featured products on the index.php view.
