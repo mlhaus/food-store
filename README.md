@@ -70,13 +70,13 @@ Create a new database called "food-store". Create two new tables with the follow
 
 Update the about.php view to include the main content from about.html.
 
-Add the necessary PHP in the model (Page.php), view (about.php) and controller (Pages.php) to query the database and display the 3 employees.
+Add the necessary PHP in the model (Employee.php), view (about.php) and controller (Pages.php) to query the database and display the 3 employees.
 
 ## Part 4
 
 Update the products.php view to include the main content from products.html.
 
-Add the necessary PHP in the model (Page.php), view (products.php) and controller (Pages.php) to query the database and display the 8+ products (image, name, price, and featured icon). The image can be generated from the product name. For example, "Organic Carrots" will become "organic-carrots.jpg".
+Add the necessary PHP in the model (Product.php), view (products.php) and controller (Pages.php) to query the database and display the 8+ products (image, name, price, and featured icon). The image can be generated from the product name. For example, "Organic Carrots" will become "organic-carrots.jpg".
 
 ## Part 5
 
