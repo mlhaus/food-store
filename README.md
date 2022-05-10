@@ -82,7 +82,7 @@ Add the necessary PHP in the model (Product.php), view (products.php) and contro
 
 Update the product.php view to include the main content from product.html.
 
-Add the necessary PHP in the model (Page.php), view (product.php) and controller (Pages.php) to query the database and display a single product (image, name, price, and category). The image can be generated from the product name. For example, "Organic Carrots" will become "organic-carrots.jpg".
+Add the necessary PHP in the model (Product.php), view (product.php) and controller (Pages.php) to query the database and display a single product (image, name, price, and category). The image can be generated from the product name. For example, "Organic Carrots" will become "organic-carrots.jpg".
 
 ## Part 6
 
